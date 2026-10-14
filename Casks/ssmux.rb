@@ -1,14 +1,14 @@
 cask "ssmux" do
-  version "0.2.1"
+  version "0.3.0"
 
   on_arm do
     url "https://github.com/ycchuang99/ssmux/releases/download/v#{version}/ssmux-menubar-v#{version}-aarch64-apple-darwin.zip"
-    sha256 "33b2efa6a1603ea2a4a4cdf78080a625ba87c0f986cc10226bd6d07d1b138435"
+    sha256 "6769fd1af1bf2408348dd7c3250be32e8f26f6794749b20d50e5e5824cd38809"
   end
 
   on_intel do
     url "https://github.com/ycchuang99/ssmux/releases/download/v#{version}/ssmux-menubar-v#{version}-x86_64-apple-darwin.zip"
-    sha256 "f34bfafa5bdb550d2ed293e647f6ad37bf42bad8d69738cc1ea985ee60d64831"
+    sha256 "4bac2e6475ab57009d7e3bac817665f08a6b278c5eef698fe7c2a846d7927872"
   end
 
   name "ssmux"
