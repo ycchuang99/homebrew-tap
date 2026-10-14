@@ -18,5 +18,5 @@ cask "ssmux" do
   depends_on cask: "session-manager-plugin"
   depends_on formula: "awscli"
 
-  app "ssmux-menubar.app"
+  app "SSMux.app"
 end
