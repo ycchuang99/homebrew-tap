@@ -1,17 +1,17 @@
 cask "ssmux" do
-  version "0.3.0"
+  version "0.4.0"
 
   on_arm do
     url "https://github.com/ycchuang99/ssmux/releases/download/v#{version}/ssmux-menubar-v#{version}-aarch64-apple-darwin.zip"
-    sha256 "6769fd1af1bf2408348dd7c3250be32e8f26f6794749b20d50e5e5824cd38809"
+    sha256 "28b0489901697def36e07345431f703fa5fe56182fae955ee3d2c6540a5328e8"
   end
 
   on_intel do
     url "https://github.com/ycchuang99/ssmux/releases/download/v#{version}/ssmux-menubar-v#{version}-x86_64-apple-darwin.zip"
-    sha256 "4bac2e6475ab57009d7e3bac817665f08a6b278c5eef698fe7c2a846d7927872"
+    sha256 "fa175b7c8750fd0adbaaf99a19d324529c46f8fa6fde81f7a26cfa49c10c58a8"
   end
 
-  name "ssmux"
+  name "SSMux"
   desc "Menu bar controller for AWS Systems Manager sessions"
   homepage "https://github.com/ycchuang99/ssmux"
 
